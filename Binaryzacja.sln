@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binaryzacja", "Binaryzacja\Binaryzacja.csproj", "{EFED9B47-90C4-4B40-B8AF-301F6A6FB4F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binaryzacja", "Binaryzacja\Binaryzacja\Binaryzacja.csproj", "{EFED9B47-90C4-4B40-B8AF-301F6A6FB4F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

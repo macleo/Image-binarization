@@ -18,6 +18,7 @@ namespace Binaryzacja
         private static int _imageSize = _sampleImage.Height * _sampleImage.Width;
         private static GrayPixel[] _originalPixels = new GrayPixel[_imageSize];
 
+        private string file = null;
         //example method
         public static Bitmap MakeGrayscale(Bitmap original)
         {
@@ -142,6 +143,11 @@ namespace Binaryzacja
                 chart1.Series["Series1"].Points.AddXY(item.Value.ToString(), item.Count);       
         }
 
+        /// <summary>
+        /// OTSU算法是由日本学者OTSU于1979年提出的一种对图像进行二值化的高效算法。
+        /// </summary>
+        /// <param name="histogram"></param>
+        /// <returns></returns>
         public int Otsu(GrayPixelHistogram[] histogram)
         { 
             //def
@@ -394,8 +400,10 @@ namespace Binaryzacja
         {
             try
             {
-                
-                pixtureBoxOriginalImage.Image = Image.FromFile(@"image.jpg");
+
+                //pixtureBoxOriginalImage.Image = Image.FromFile(@"image.jpg");//origin
+                _sampleImage = Image.FromFile(file);
+                pixtureBoxOriginalImage.Image = Image.FromFile(file);
                 switch (comboBox1.SelectedItem.ToString())
                 {
                     case "Otsu":
@@ -416,6 +424,24 @@ namespace Binaryzacja
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void btn_loadfile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.RestoreDirectory = true;
+            openFileDialog.InitialDirectory = @"C:\project\Ocr\Ocr\bin\Debug";//注意这里写路径时要用c:\\而不是c:\
+            openFileDialog.Filter = "文本文件|*.*|C#文件|*.cs|所有文件|*.*";
+            openFileDialog.RestoreDirectory = true;
+            openFileDialog.FilterIndex = 1;
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+
+                file = openFileDialog.FileName;
+                openFileDialog.Dispose();
+                pixtureBoxOriginalImage.Image = Image.FromFile(file);
+
             }
         }
     }
