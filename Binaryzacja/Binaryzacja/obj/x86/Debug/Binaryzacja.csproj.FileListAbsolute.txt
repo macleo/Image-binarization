@@ -18,3 +18,13 @@ F:\STUDIA\IX semestr\Algorytmy graficzne\Binaryzacja\Binaryzacja\obj\x86\Debug\B
 F:\STUDIA\IX semestr\Algorytmy graficzne\Binaryzacja\Binaryzacja\obj\x86\Debug\Binaryzacja.Form1.resources
 F:\STUDIA\IX semestr\Algorytmy graficzne\Binaryzacja\Binaryzacja\obj\x86\Debug\Binaryzacja.Properties.Resources.resources
 F:\STUDIA\IX semestr\Algorytmy graficzne\Binaryzacja\Binaryzacja\obj\x86\Debug\Binaryzacja.csproj.GenerateResource.Cache
+C:\project\demo\Image-binarization\Binaryzacja\Binaryzacja\bin\Debug\Binaryzacja.exe
+C:\project\demo\Image-binarization\Binaryzacja\Binaryzacja\bin\Debug\Binaryzacja.pdb
+C:\project\demo\Image-binarization\Binaryzacja\Binaryzacja\bin\Debug\MoreLinq.dll
+C:\project\demo\Image-binarization\Binaryzacja\Binaryzacja\bin\Debug\MoreLinq.xml
+C:\project\demo\Image-binarization\Binaryzacja\Binaryzacja\obj\x86\Debug\Binaryzacja.csprojResolveAssemblyReference.cache
+C:\project\demo\Image-binarization\Binaryzacja\Binaryzacja\obj\x86\Debug\Binaryzacja.Form1.resources
+C:\project\demo\Image-binarization\Binaryzacja\Binaryzacja\obj\x86\Debug\Binaryzacja.Properties.Resources.resources
+C:\project\demo\Image-binarization\Binaryzacja\Binaryzacja\obj\x86\Debug\Binaryzacja.csproj.GenerateResource.Cache
+C:\project\demo\Image-binarization\Binaryzacja\Binaryzacja\obj\x86\Debug\Binaryzacja.exe
+C:\project\demo\Image-binarization\Binaryzacja\Binaryzacja\obj\x86\Debug\Binaryzacja.pdb
